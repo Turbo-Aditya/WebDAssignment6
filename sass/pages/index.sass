@@ -1,0 +1,66 @@
+.diff
+    display: flex
+    justify-content: center // Center the content horizontally
+    align-items: center // Center the content vertically if needed
+    padding: 20px // Add some padding around the section
+   
+
+    
+    .table-container
+        margin: 0 auto // Center the container
+        max-width: 800px // Set a max width for the table container
+        overflow-x: auto // Make the container scrollable if the table is too wide
+
+    .myths-table
+        width: 100% // Make the table full width
+        border-collapse: collapse // Merge borders of table cells
+        margin-top: 20px // Add some space above the table
+
+        th, td
+            padding: 15px // Add padding to table cells
+            text-align: left // Align text to the left
+            border-bottom: 1px solid #ddd // Add a bottom border for rows
+            font-size: 16px // Set font size
+
+        th
+            background-color: #4CAF50 // Set a background color for header
+            color: white // Set text color for header
+
+        tr:hover
+            background-color: rgba(76, 175, 80, 0.2) // Add hover effect on rows
+.package
+  text-align: center // Center the heading and contents of the package
+  padding: 20px // Add padding around the package section
+
+.grid-container2
+  display: grid
+  grid-template-columns: repeat(3, 1fr)
+  grid-gap: 20px
+  padding: 20px
+
+
+
+.item2
+  background-color: $secondary-color
+  color: white
+  padding: 40px
+  text-align: center
+
+.buy-button
+  background-color: #4CAF50 
+  color: white 
+  border: none
+  padding: 10px 20px 
+  text-align: center 
+  text-decoration: none 
+  display: inline-block 
+  font-size: 16px 
+  margin: 10px 0 
+  cursor: pointer
+  border-radius: 5px 
+
+  // Add hover effect
+  &:hover
+    background-color: darken(#4CAF50, 10%) 
+
+

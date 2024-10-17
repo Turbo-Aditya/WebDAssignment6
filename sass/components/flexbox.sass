@@ -1,0 +1,20 @@
+@import 'mixins'
+
+.flex-container
+  @include flexbox
+
+.flex-item
+  background-color: lighten($secondary-color, 10%)
+  padding: 20px
+  margin: 10px
+  color: white
+  text-align: center
+  transition: background-color 0.3s ease
+
+  &:hover
+    background-color: darken($secondary-color, 10%)
+    cursor: pointer
+ 
+@mixin flexbox
+  display: flex
+  justify-content: space-between

@@ -1,0 +1,15 @@
+$secondar-color: grey
+
+.footer-flexbox
+  @include flexbox
+
+.footer-flexbox
+  background-color: lighten($secondar-color, 10%)
+  padding: 20px
+  margin: 10px
+  color: white
+  text-align: center
+
+@mixin flexbox
+  display: flex
+  justify-content: space-between
