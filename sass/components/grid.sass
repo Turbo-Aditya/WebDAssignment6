@@ -6,11 +6,11 @@
   justify-items: center
   align-items: center
 
-.item
-  background-color: $secondary-color
-  color: white
-  padding: 40px
-  text-align: center
-
+@for $i from 1 through 3
+  .item#{$i}
+    background-color: $secondary-color
+    color: white
+    padding: 40px
+    text-align: center
 
 
